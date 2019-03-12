@@ -13,14 +13,3 @@ function changeColor(){
 color1.addEventListener("input", changeColor)
 
 color2.addEventListener("input", changeColor)
-
-
-const array = [1,2,3,4];
-
-const newArray = array.forEach((num) => {
-	console.log(num*2)
-});
-
-const mapArray = array.map((num) => {
-	return "hahaha"
-})
